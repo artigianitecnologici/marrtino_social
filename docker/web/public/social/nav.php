@@ -13,6 +13,15 @@
 	   <li class="nav-item">
         <a class="nav-link" href="../bringup/index.php" aria-haspopup="true"  >Bringup</a>
       </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Facerobot
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../social/facerobot.php">facerobot IT</a>
+          <a class="dropdown-item" href="../social/faceroboten.php">facerobot EN</a>
+        
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="../social/facerobot.php" aria-haspopup="true"  >Social Interface</a>
       </li>

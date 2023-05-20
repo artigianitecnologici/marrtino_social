@@ -101,6 +101,7 @@ var speechTopic = new ROSLIB.Topic({
 
 
 function speak( testo){
+testo=testo+'###en';  
 var msg_speak = new ROSLIB.Message({
       data: testo
  });
