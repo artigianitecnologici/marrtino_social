@@ -133,25 +133,13 @@
 <td><button id="social_start_btn" onclick="send_cmd('socialns_start')" class="btn btn-primary btn-lg">Social Start</button></td>
 <td><button id="social_quit_btn" onclick="send_cmd('socialns_kill')" class="btn btn-light btn-lg">Social quit</button></td>
 </tr>
-<!-- 
-<tr height=40>
-<td width=280>AUDIO </td> 
-<td width=80 align='center'></td>
-<td><button id="audio_start_btn" onclick="send_cmd('audio_start')" class="btn waves-effect waves-light blue" style="margin-right:10px">Audio start</button></td>
-<td><button id="audio_quit_btn" onclick="send_cmd('audio_kill')"class="btn waves-effect waves-light blue">Audio quit</button></td>
-</tr>
-<tr height=40>
-<td width=280>USB</td> 
-<td width=80 align='center'><span id="usbcam_status" style="color: red;">OFF</span></td>
-<td><button id="usbcam_start_btn" onclick="send_cmd('usbcam_start')" class="btn waves-effect waves-light blue">USB camera start</button></td>
-<td><button id="usbcam_quit_btn" onclick="send_cmd('usbcam_kill')" class="btn waves-effect waves-light blue">USB camera quit</button></td>
-</tr>-->
+
 
 <tr height=40>
 <td width=80>Interactive Mode </td> 
 <td width=80 align='center'></td>
-<td><button id="speech_start_btn" onclick="send_cmd('speech_start')" class="btn waves-effect waves-light blue" style="margin-right:10px">Start interactive mode</button></td>
-<td><button id="speech_quit_btn" onclick="send_cmd('speech_kill')"class="btn waves-effect waves-light blue">Stop interactive mode</button></td>
+<td><button id="speech_start_btn" onclick="send_cmd('interactive_start')" class="btn btn-primary btn-lg">Start interactive mode</button></td>
+<td><button id="speech_quit_btn" onclick="send_cmd('interactive_kill')" class="btn btn-primary btn-lg">Stop interactive mode</button></td>
 </tr>
 </table>
 
