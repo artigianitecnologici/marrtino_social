@@ -244,6 +244,32 @@ Blockly.Python['gomito_sx'] = function(block) {
   return code;
 };
 
+Blockly.Python['hand_right'] = function(block) {
+  var value_sign = block.getFieldValue('Sign');
+  var value_steps = Blockly.Python.valueToCode(block, 'steps', Blockly.Python.ORDER_ATOMIC);
+  if ( value_sign == '+') { 
+    //if ( parseInt(value_steps) > 30 ) { value_steps = 30  }
+    value_steps = -value_steps;
+  }
+  var value_pos = (((150 + parseInt(value_steps))* 3.14 )/ 180) ;
+  var code = 'hand_right('+value_pos+')\n';
+  return code;
+};
+
+
+Blockly.Python['hand_left'] = function(block) {
+  var value_sign = block.getFieldValue('Sign');
+  var value_steps = Blockly.Python.valueToCode(block, 'steps', Blockly.Python.ORDER_ATOMIC);
+  if ( value_sign == '-') { 
+    if ( value_steps > 30 )
+      //if ( parseInt(value_steps) > 30 ) { value_steps = 30  }
+      value_steps = -value_steps;
+
+  }
+  var value_pos = (((150 + parseInt(value_steps))* 3.14 )/ 180) ;
+  var code = 'hand_left('+value_pos+')\n';
+  return code;
+};
 
 
 

@@ -157,6 +157,9 @@
 <block type="spalla_rotazione_sx"> </block>
 <block type="gomito_dx"> </block>
 <block type="gomito_sx"> </block>
+<block type="hand_right"> </block>
+<block type="hand_left"> </block>
+
 <block type="get_nro_of_face"></block>
 </category>
 <category colour="0" name="Code">

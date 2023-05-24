@@ -463,6 +463,43 @@ Blockly.Blocks['gomito_sx'] = {
  this.setHelpUrl("");
   }
 };
+Blockly.Blocks['hand_right'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField(new Blockly.FieldImage("img/tilt.png", 20, 20, "Hand right %"));
+    this.appendDummyInput()
+        .appendField("sign")
+        .appendField(new Blockly.FieldDropdown([["+","+"],["-","-"]]), "Sign");
+    this.appendValueInput("steps")
+        .setCheck("Number")
+        .appendField("hand_right");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(120);
+ this.setTooltip("Hand Rotation");
+ this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['hand_left'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField(new Blockly.FieldImage("img/tilt.png", 20, 20, "hand_left SX %"));
+    this.appendDummyInput()
+        .appendField("sign")
+        .appendField(new Blockly.FieldDropdown([["+","+"],["-","-"]]), "Sign");
+    this.appendValueInput("steps")
+        .setCheck("Number")
+        .appendField("hand_left"); 
+    this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(120);
+ this.setTooltip("Hand Left Rotation");
+ this.setHelpUrl("");
+  }
+};
 
 
 /**
