@@ -116,7 +116,7 @@ class EyeController {
      	document.getElementById("naso").src = "image/face01/Happy/nose.png"; 
   }	 
 
-  angry() {
+  sad() {
 	document.getElementById("soprdx").src = "image/face01/Angry/eyebrowdxangry.png"; 
     document.getElementById("soprsx").src = "image/face01/Angry/eyebrowsxangry.png"; 
     document.getElementById("occhiodx").src = "image/face02/eyedx.png"; 
@@ -124,7 +124,7 @@ class EyeController {
     document.getElementById("bocca").src = "image/face01/Angry/mouthangry.png"; 
     document.getElementById("naso").src = "image/face01/Angry/nose.png"; 
   }	 
-  sad() {
+  angry() {
 	    document.getElementById("soprdx").src = "image/face01/Sad/eyebrowdxsad.png"; 
     	document.getElementById("soprsx").src = "image/face01/Sad/eyebrowsxsad.png"; 
       document.getElementById("occhiodx").src = "image/face02/eyedx.png"; 
@@ -135,8 +135,8 @@ class EyeController {
   surprise() {
 	document.getElementById("soprdx").src = "image/face01/Surprise/eyebrowdxsurprise.png"; 
     document.getElementById("soprsx").src = "image/face01/Surprise/eyebrowsxsurprise.png"; 
-	document.getElementById("occhiodx").src = "image/face01/Surprise/eyedxsurprise.png"; 
-    document.getElementById("occhiosx").src = "image/face01/Surprise/eyesxsurprise.png"; 	
+    document.getElementById("occhiodx").src = "image/face02/eyedx.png"; 
+    document.getElementById("occhiosx").src = "image/face02/eyesx.png"; 
     document.getElementById("bocca").src = "image/face01/Surprise/mouthsurprise.png"; 
     document.getElementById("naso").src = "image/face01/Surprise/nosesurprise.png"; 
   }	  

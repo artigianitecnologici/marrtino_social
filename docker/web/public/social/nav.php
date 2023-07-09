@@ -22,9 +22,11 @@
           <a class="dropdown-item" href="../social/faceroboten.php">facerobot EN</a>
         
       </li>
+      <!--
       <li class="nav-item">
         <a class="nav-link" href="../social/facerobot.php" aria-haspopup="true"  >Social Interface</a>
       </li>
+      -->
       <li class="nav-item">
         <a class="nav-link" href="../program/blockly_robot.php" aria-haspopup="true"  >Blocky</a>
       </li>

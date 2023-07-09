@@ -212,15 +212,14 @@ initPanTilt= function() {
     <div class="col-md-1"><button class="btn btn-outline-danger btn-lg" onclick="FaceExpression('normal')">Normal</button><br><button class="btn btn-outline-danger btn-lg" onclick="FaceExpression('angry')">angry</button></div>
     <div class="col-md-1"><button class="btn btn-outline-danger btn-lg" onclick="FaceExpression('happy')">Happy</button><br><button class="btn btn-outline-danger btn-lg" onclick="FaceExpression('sad')">sad</button></div>
     <div class="col-md-1"><button class="btn btn-outline-danger btn-lg" onclick="FaceExpression('surprise')">Surprise</button><br><button class="btn btn-outline-danger btn-lg" onclick="FaceExpression('sings')">sings</button></div>
-    <div class="col-md-1"><button class="btn btn-outline-danger btn-lg" onclick="FaceExpression('startblinking')">Start Blinking</button><br><button class="btn btn-outline-danger btn-lg" onclick="FaceExpression('stopblinking')">Stop Blinking</button></div>
+    <div class="col-md-2"><button class="btn btn-outline-danger btn-lg" onclick="FaceExpression('startblinking')">Start Blinking</button><br><button class="btn btn-outline-danger btn-lg" onclick="FaceExpression('stopblinking')">Stop Blinking</button></div>
     <div class="col-md-1"><button class="btn btn-outline-danger btn-lg" onclick="FaceExpression('speak')">Speak</button><br><button class="btn btn-outline-danger btn-lg" onclick="FaceExpression('normal')">stop </button></div>
-    <div class="col-md-1"></div>
     <div class="col-md-1"></div>
     <div class="col-md-1"></div>
     <div class="col-md-1" align="right"> <input type="range" orient="vertical"id="robot-tilt" /> </div>
 	<div class="col- md-2">
 	 
-	  <div class="iframe-container"><iframe loading="lazy" src="/social/marrtina.html"></iframe></div>
+	  <div class="iframe-container"><iframe loading="lazy" src="/social/marrtina02.html"></iframe></div>
 	   <input  type="range" min="0" max="100" style="width:100%;" id="robot-pan" >
    </div>
    
