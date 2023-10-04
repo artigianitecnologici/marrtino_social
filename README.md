@@ -125,4 +125,10 @@ Remove screen saver
     sudo gsettings set org.gnome.desktop.screensaver lock-enabled false
     sudo gsettings set org.gnome.desktop.screensaver idle-activation-enabled false
 
+accesso ad apache 
+cd ~/src/marrtino_social/docker/web/public/social 
+sudo chown -R www-data:www-data tmp
 
+
+
+sudo chown -R $USER:$USER tmp
